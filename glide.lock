@@ -59,8 +59,6 @@ testImports:
   subpackages:
   - assert
   - require
-- name: go.pedge.io/lion
-  version: 87958e8713f1fa138d993087133b97e976642159
 - name: golang.org/x/sys
   version: c4489faa6e5ab84c0ef40d6ee878f7a030281f0f
   subpackages:

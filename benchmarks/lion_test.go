@@ -21,11 +21,6 @@
 package benchmarks
 
 import (
-	"io/ioutil"
 
-	"go.pedge.io/lion"
 )
 
-func newLion() lion.Logger {
-	return lion.NewLogger(lion.NewJSONWritePusher(ioutil.Discard))
-}
